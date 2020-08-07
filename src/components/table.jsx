@@ -4,8 +4,9 @@ import './css/table.css'
 export default (props) => {
   const makeTable = () => {
     return props.data.map((obj,i) => {
-      return (
-      <>
+      if(i<10){
+        return (
+          <>
       <tr key={i}>
       <td>{obj.title}</td>
       <td>{obj.variety}</td>
@@ -15,7 +16,9 @@ export default (props) => {
       <td><a href="https://seanjmurray.github.io/lightningLaw/">{obj.tasterName}</a></td>
       </tr>
       </>
-    )})
+    )
+  }
+  })
   }
   return (
     <table>

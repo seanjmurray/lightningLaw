@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://lightninglaw.azurewebsites.net/api",
   "homepage": "https://seanjmurray.github.io/lightningLaw/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,6 +10,7 @@
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-paginate": "^6.3.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
