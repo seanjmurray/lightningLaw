@@ -4,6 +4,7 @@ export default (props) => {
   const [country, setCountry] = useState('')
   const handleChange = (e) => {
     setCountry(e.target.value)
+    console.log(country)
   }
   const options = () => {
     return props.reviews.reduce((acc,obj,i) => {
