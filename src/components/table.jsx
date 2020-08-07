@@ -4,7 +4,6 @@ import './css/table.css'
 export default (props) => {
   const makeTable = () => {
     return props.data.map((obj,i) => {
-      if(i<10){
         return (
           <>
       <tr key={i}>
@@ -17,7 +16,6 @@ export default (props) => {
       </tr>
       </>
     )
-  }
   })
   }
   return (
