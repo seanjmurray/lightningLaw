@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import TotalReviews from './components/totalReviews'
+import Search from './components/search'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
    <section>
      <h1>Test</h1>
      <TotalReviews />
+     <Search />
    </section>
   );
 }
