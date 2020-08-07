@@ -4,6 +4,7 @@ export default (props) => {
   const [search, setSearch] = useState('')
   const handleSubmit = (e) => {
     e.preventDefault()
+    console.log(search)
   }
   return (
     <form onSubmit={handleSubmit}>
